@@ -73,18 +73,12 @@ nav {
   }
 }
 
-.logo img {
-  max-width: 100%;
+.logo-img {
+  width: auto;
   height: auto;
-  width: 300px; /* Or adjust as needed */
+  max-width: 320px;
   display: block;
   margin: 0 auto;
-  padding: 0.5rem;
-  background-color: transparent;
-
-  @media (max-width: 600px) {
-    width: 180px;
-  }
 }
 
 .logo {
