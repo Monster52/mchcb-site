@@ -38,13 +38,6 @@ Students are placed in one of two ensembles based on skill level:
 
 ---
 
-## Rehearsal Info
-
-**Location:** St. Thomas Church in Long Beach, MS
-**Day & Time:** Tuesdays and Thursdays from 3:00 PM – 5:00 PM
-
----
-
 ## Get Involved
 
 Visit the [Join Us]({{ '/join' | relative_url }}) page for enrollment information, rehearsal expectations, and instrument guidance.
