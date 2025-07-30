@@ -1,0 +1,86 @@
+$primary-color: #1C2A49;
+$accent-color: #D4AF37;
+$background-color: #F8F8F8;
+$text-color: #333;
+$link-color: $accent-color;
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: $background-color;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: $primary-color;
+  padding: 1rem;
+  text-align: center;
+
+  .logo img {
+    max-height: 80px;
+  }
+}
+
+nav {
+  background-color: $primary-color;
+  text-align: center;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  li {
+    margin: 0.5rem;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover {
+      color: $accent-color;
+    }
+  }
+}
+
+.hero {
+  background-color: $primary-color;
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+
+  .hero-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .hero-text h1 {
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-text p {
+    font-size: 1.2rem;
+  }
+}
+
+.content {
+  padding: 2rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: $primary-color;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
